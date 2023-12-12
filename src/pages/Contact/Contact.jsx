@@ -1,6 +1,9 @@
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import toast, { Toaster } from 'react-hot-toast';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+
 
 const Contact = () => {
   const form = useRef();
@@ -45,19 +48,33 @@ const Contact = () => {
           <label htmlFor="message" className="block text-sm font-semibold text-gray-600">Message</label>
           <textarea id="message" name="message" rows="4" className="w-full p-2 border rounded-md" placeholder="Your Message"></textarea>
         </div>
-        <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Submit</button>
+        <button type="submit"                         
+        className=" text-white text-center px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300">Submit</button>
       </form>
-      <p>
+      <p className='my-4'>
         You can also find me on:
       </p>
-      <ul className="list-inline">
-        <li className="list-inline-item">
-          <a href="https://www.linkedin.com/in/ranit-sarker-586074b4/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline"><u>LinkedIn</u></a>
-        </li>
-        <li className="list-inline-item">
-          <a href="https://github.com/ranitsarker" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline"><u>GitHub</u></a>
-        </li>
-      </ul>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <a
+          href="https://www.linkedin.com/in/ranit-sarker-586074b4/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center text-white px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+        >
+          <FaLinkedin className="text-2xl mr-2" />
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/ranitsarker"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center text-white px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+        >
+          <FaGithub className="text-2xl mr-2" />
+          GitHub
+        </a>
+      </div>
+
     </div>
   );
 };

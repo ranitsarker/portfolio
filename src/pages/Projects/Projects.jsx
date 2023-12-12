@@ -14,11 +14,33 @@ const Projects = () => {
                     <p>Private Dashboards for Users, Members, and Admins cater to specific roles. Users can manage their profiles, view announcements, and explore available services. Members gain additional functionalities such as making payments, checking payment history, and accessing announcements. Admins, on the other hand, have a comprehensive dashboard for managing members, making announcements, handling agreement requests, and managing coupons.</p><br />
 
                     <p>Bonus features include an Admin Profile with detailed statistics, JWT implementation for secure login, the ability for admins to change coupon availability, and seamless handling of successful payments. Altogether, the Apartment Management System serves as an efficient and user-friendly platform, enhancing the residential experience for both residents and administrators.</p>
-                    <hr />
-                    <p><a href="https://building-management-31565.web.app/" target="_blank" rel="noopener noreferrer"><u>Live link</u></a></p>
-                    <p><a href="https://github.com/ranitsarker/building-management-client" target="_blank" rel="noopener noreferrer"><u>Code link - client</u></a></p>
-                    <p><a href="https://github.com/ranitsarker/building-management-server" target="_blank" rel="noopener noreferrer"><u>Code link - server</u></a></p>
-                    
+                    <hr className="my-4" />
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <a
+                        href="https://building-management-31565.web.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className=" text-white text-center px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+                        >
+                        Live Link
+                        </a>
+                        <a
+                        href="https://github.com/ranitsarker/building-management-client"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className=" text-white text-center px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+                        >
+                        Code link - client
+                        </a>
+                        <a
+                        href="https://github.com/ranitsarker/building-management-server"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className=" text-white text-center px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+                        >
+                        Code link - server
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -26,10 +48,33 @@ const Projects = () => {
                 <div className="mb-4">
                 <h3 className="text-xl font-bold">Online Study Group:</h3>
                     <p>The described project is a comprehensive online assignment management system that enables users to create, delete, update, and view assignments. Users can filter assignments based on difficulty levels and, With logging in, explore assignment details and submit assignments. The system ensures secure assignment deletion, only allowing the creator to delete and update their assignments. Upon updating an assignment, users are provided with a pre-filled form for convenience. The platform also supports assignment marking, allowing instructors to review submitted assignments, provide marks, and offer feedback. The system employs various features like modals, toasts, and private pages to enhance user experience and communication. Overall, it offers a seamless and user-friendly environment for managing, submitting, and grading assignments in an educational setting.</p>
-                    <hr />
-                    <p><a href="https://unequal-able.surge.sh/" target="_blank" rel="noopener noreferrer"><u>Live link</u></a></p>
-                    <p><a href="https://github.com/ranitsarker/online-group-study-client-side" target="_blank" rel="noopener noreferrer"><u>Code link - client</u></a></p>
-                    <p><a href="https://github.com/ranitsarker/online-group-study-server-side" target="_blank" rel="noopener noreferrer"><u>Code link - server</u></a></p>
+                    <hr className="my-4" />
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <a
+                        href="https://unequal-able.surge.sh/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className=" text-white text-center px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+                        >
+                        Live Link
+                        </a>
+                        <a
+                        href="https://github.com/ranitsarker/online-group-study-client-side"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className=" text-white text-center px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+                        >
+                        Code link - client
+                        </a>
+                        <a
+                        href="https://github.com/ranitsarker/online-group-study-server-side"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className=" text-white text-center px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+                        >
+                        Code link - server
+                        </a>
+                    </div>
                     
                 </div>
             </div>
@@ -38,10 +83,33 @@ const Projects = () => {
                 <div className="mb-4">
                 <h3 className="text-xl font-bold">Technology and Electronics Store - ElectraTech:</h3>
                     <p>The Technology and Electronics Store project is an e-commerce platform that enables users to explore and access information about various technology and electronics products. It includes features like product listings, detailed product descriptions, and the ability to add items to a virtual shopping cart. While it does not currently support actual purchases, it serves as a platform for users to browse and collect items of interest.</p>
-                    <hr />
-                    <p><a href="https://technology-and-electroni-94e83.web.app/" target="_blank" rel="noopener noreferrer"><u>Live link</u></a></p>
-                    <p><a href="https://github.com/ranitsarker/technology-and-electronics-client-side" target="_blank" rel="noopener noreferrer"><u>Code link - client</u></a></p>
-                    <p><a href="https://github.com/ranitsarker/technology-and-electronics-server-side" target="_blank" rel="noopener noreferrer"><u>Code link - server</u></a></p>
+                    <hr className="my-4" />
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <a
+                        href="https://technology-and-electroni-94e83.web.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className=" text-white text-center px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+                        >
+                        Live Link
+                        </a>
+                        <a
+                        href="https://github.com/ranitsarker/technology-and-electronics-client-side"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className=" text-white text-center px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+                        >
+                        Code link - client
+                        </a>
+                        <a
+                        href="https://github.com/ranitsarker/technology-and-electronics-server-side"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className=" text-white text-center px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+                        >
+                        Code link - server
+                        </a>
+                    </div>
                     
                 </div>
             </div>
