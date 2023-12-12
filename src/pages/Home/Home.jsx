@@ -1,4 +1,7 @@
+import Certifications from "../../components/Certifications/Certifications";
+import Education from "../../components/Education/Education";
 import Experience from "../../components/Experience/Experience";
+import InterestsHobbies from "../../components/InterestsHobbies/InterestsHobbies";
 import Skills from "../../components/Skills/Skills";
 
 const Home = () => {
@@ -41,6 +44,15 @@ const Home = () => {
       </div>
       <div>
         <Experience></Experience>
+      </div>
+      <div>
+        <Education></Education>
+      </div>
+      <div>
+        <Certifications></Certifications>
+      </div>
+      <div>
+        <InterestsHobbies></InterestsHobbies>
       </div>
     </div>
   );

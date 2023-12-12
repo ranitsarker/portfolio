@@ -19,6 +19,10 @@ const Experience = () => {
         <p className="text-gray-600">
           My work on Fiverr encompasses a diverse range of projects, demonstrating adaptability and expertise in meeting the unique requirements of each client. I take pride in contributing to the success of businesses and individuals through my web development skills.
         </p>
+        <hr />
+        <p>
+          <a href="https://www.fiverr.com/rntprince" target="_blank" rel="noopener noreferrer"><u>Fiverr link</u></a>
+        </p>
       </div>
     </div>
   );
