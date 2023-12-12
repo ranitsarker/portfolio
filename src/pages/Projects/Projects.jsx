@@ -1,25 +1,11 @@
-import Experience from "../../components/Experience/Experience";
-import Skills from "../../components/Skills/Skills";
 
-const Home = () => {
-  return (
-    <div className="container mx-auto p-4">
-      <div className="text-center mb-8">
-        <h1 className="text-3xl font-bold text-[#006BA6]">Ranit Sarker</h1>
-        <p className="text-[#00B3E3]">
-            <i>Full Stack Developer | React, Node.js, MongoDB | Crafting innovative web solutions.</i>
-        </p>
-      </div>
-      <div className="mb-8">
-        <p className=" text-[#05192B] text-center">
-        Welcome to my corner of the web! I am a Full Stack Developer passionate about crafting innovative solutions using the power of React, Node.js, and MongoDB. Whether it is building sleek user interfaces or robust back-end systems, I love turning ideas into reality. Explore my projects and journey through the world of web development with me!
-
-        </p>
-      </div>
-
-      <div>
-        <h2 className="text-2xl font-bold mb-4">Featured Project</h2>
-            <div className="mb-4">
+const Projects = () => {
+    return (
+        <div>
+            <section className="mb-8">
+                <h2 className="text-2xl font-bold mb-4">Projects</h2>
+                {/* Add your projects here */}
+                <div className="mb-4">
                 <h3 className="text-xl font-bold">Building management:</h3>
                     <p>The Building Management System is a sophisticated web application aimed at enhancing the overall residential experience within an apartment complex. With a responsive design catering to various devices, the system seamlessly integrates Tanstack query functionality for efficient data retrieval. The homepage boasts a dynamic navbar featuring user-specific elements like a profile picture, providing quick access to user-related actions.</p><br />
 
@@ -33,17 +19,15 @@ const Home = () => {
                     <p><a href="https://github.com/ranitsarker/building-management-client" target="_blank" rel="noopener noreferrer"><u>Code link - client</u></a></p>
                     <p><a href="https://github.com/ranitsarker/building-management-server" target="_blank" rel="noopener noreferrer"><u>Code link - server</u></a></p>
                     
-            </div>
-      </div>
-
-      <div>
-        <Skills></Skills>
-      </div>
-      <div>
-        <Experience></Experience>
-      </div>
-    </div>
-  );
+                </div>
+                <div className="mb-4">
+                <h3 className="text-xl font-bold">Project 2</h3>
+                <p>Description of Project 2.</p>
+                </div>
+                {/* Add more projects as needed */}
+            </section>
+        </div>
+    );
 };
 
-export default Home;
+export default Projects;
