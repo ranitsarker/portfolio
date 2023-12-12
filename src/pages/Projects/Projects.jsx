@@ -1,8 +1,8 @@
 
 const Projects = () => {
     return (
-        <div>
-            <section className="mb-8">
+        <div className="container mx-auto p-4">
+            <div className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">Projects</h2>
                 {/* Add your projects here */}
                 <div className="mb-4">
@@ -20,12 +20,31 @@ const Projects = () => {
                     <p><a href="https://github.com/ranitsarker/building-management-server" target="_blank" rel="noopener noreferrer"><u>Code link - server</u></a></p>
                     
                 </div>
+            </div>
+
+            <div className="mb-8">
                 <div className="mb-4">
-                <h3 className="text-xl font-bold">Project 2</h3>
-                <p>Description of Project 2.</p>
+                <h3 className="text-xl font-bold">Online Study Group:</h3>
+                    <p>The described project is a comprehensive online assignment management system that enables users to create, delete, update, and view assignments. Users can filter assignments based on difficulty levels and, With logging in, explore assignment details and submit assignments. The system ensures secure assignment deletion, only allowing the creator to delete and update their assignments. Upon updating an assignment, users are provided with a pre-filled form for convenience. The platform also supports assignment marking, allowing instructors to review submitted assignments, provide marks, and offer feedback. The system employs various features like modals, toasts, and private pages to enhance user experience and communication. Overall, it offers a seamless and user-friendly environment for managing, submitting, and grading assignments in an educational setting.</p>
+                    <hr />
+                    <p><a href="https://unequal-able.surge.sh/" target="_blank" rel="noopener noreferrer"><u>Live link</u></a></p>
+                    <p><a href="https://github.com/ranitsarker/online-group-study-client-side" target="_blank" rel="noopener noreferrer"><u>Code link - client</u></a></p>
+                    <p><a href="https://github.com/ranitsarker/online-group-study-server-side" target="_blank" rel="noopener noreferrer"><u>Code link - server</u></a></p>
+                    
                 </div>
-                {/* Add more projects as needed */}
-            </section>
+            </div>
+
+            <div className="mb-8">
+                <div className="mb-4">
+                <h3 className="text-xl font-bold">Technology and Electronics Store - ElectraTech:</h3>
+                    <p>The Technology and Electronics Store project is an e-commerce platform that enables users to explore and access information about various technology and electronics products. It includes features like product listings, detailed product descriptions, and the ability to add items to a virtual shopping cart. While it does not currently support actual purchases, it serves as a platform for users to browse and collect items of interest.</p>
+                    <hr />
+                    <p><a href="https://technology-and-electroni-94e83.web.app/" target="_blank" rel="noopener noreferrer"><u>Live link</u></a></p>
+                    <p><a href="https://github.com/ranitsarker/technology-and-electronics-client-side" target="_blank" rel="noopener noreferrer"><u>Code link - client</u></a></p>
+                    <p><a href="https://github.com/ranitsarker/technology-and-electronics-server-side" target="_blank" rel="noopener noreferrer"><u>Code link - server</u></a></p>
+                    
+                </div>
+            </div>
         </div>
     );
 };
