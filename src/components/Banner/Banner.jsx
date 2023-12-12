@@ -31,7 +31,9 @@ const Banner = () => {
               and MongoDB. Whether it is building sleek user interfaces or robust back-end systems, I love turning ideas into
               reality. Explore my projects and journey through the world of web development with me!
             </p>
-            <button className="btn btn-primary text-white" onClick={handleDownloadResume}>
+            <button 
+            className=" text-white text-center px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+            onClick={handleDownloadResume}>
               Download Resume
             </button>
           </div>

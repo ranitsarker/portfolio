@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <div className="container mx-auto p-4">
-      <h2 className="text-2xl font-bold mb-4">Experience</h2>
+      <h2 className="text-2xl font-bold mb-4 text-[#006BA6]">Experience</h2>
       <div className="mb-6">
         <h3 className="text-xl font-bold mb-2">Freelance Web Developer (2016 - Present)</h3>
         <p className="text-gray-600 mb-2">
@@ -19,10 +19,16 @@ const Experience = () => {
         <p className="text-gray-600">
           My work on Fiverr encompasses a diverse range of projects, demonstrating adaptability and expertise in meeting the unique requirements of each client. I take pride in contributing to the success of businesses and individuals through my web development skills.
         </p>
-        <hr />
-        <p>
-          <a href="https://www.fiverr.com/rntprince" target="_blank" rel="noopener noreferrer"><u>Fiverr link</u></a>
-        </p>
+        <hr className="my-4" />
+
+        <a
+          href="https://www.fiverr.com/rntprince"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=" text-white text-center px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+          >
+          Fiverr link
+          </a>
       </div>
     </div>
   );

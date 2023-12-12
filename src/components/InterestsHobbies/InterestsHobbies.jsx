@@ -1,7 +1,7 @@
 const InterestsHobbies = () => {
   return (
     <div className="container mx-auto p-4">
-      <h2 className="text-2xl font-bold mb-4">Interests and Hobbies</h2>
+      <h2 className="text-2xl font-bold mb-4 text-[#006BA6]">Interests and Hobbies</h2>
       <div className="mb-4">
         <h3 className="text-xl font-bold mb-2">Web Development</h3>
         <p className="text-gray-600 mb-2">
