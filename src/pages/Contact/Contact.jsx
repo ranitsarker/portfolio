@@ -2,10 +2,14 @@ import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import toast, { Toaster } from 'react-hot-toast';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
-
+import 'aos/dist/aos.css';
+import Aos from "aos";
+import { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init();
+}, [])
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -31,11 +35,22 @@ const Contact = () => {
   return (
     <div className="max-w-3xl mx-auto p-4">
     <Toaster></Toaster>
-      <h2 className="text-2xl font-bold mb-4">Contact Me</h2>
-      <p className="mb-4">
+      <h2 className="text-2xl font-bold mb-4"
+                          data-aos="fade-right"
+                          data-aos-easing="linear"
+                          data-aos-duration="900"
+      >Contact Me</h2>
+      <p className="mb-4"
+                          data-aos="fade-left"
+                          data-aos-easing="linear"
+                          data-aos-duration="900"
+      >
         I would love to hear from you! Feel free to reach out through the form below or connect with me on social media.
       </p>
-      <form ref={form} onSubmit={sendEmail} className="mb-8">
+      <form ref={form} onSubmit={sendEmail} className="mb-8"
+                          data-aos="fade-up"
+                          data-aos-duration="1500"
+      >
         <div className="mb-4">
           <label htmlFor="name" className="block text-sm font-semibold text-gray-600">Name</label>
           <input type="text" id="name" name="user_name" className="w-full p-2 border rounded-md" placeholder="Your Name" />
@@ -60,6 +75,7 @@ const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center text-white px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+
         >
           <FaLinkedin className="text-2xl mr-2" />
           LinkedIn
@@ -69,6 +85,7 @@ const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center text-white px-4 py-2 rounded-md bg-[#0C3C68] hover:bg-[#092B49] transition duration-300"
+
         >
           <FaGithub className="text-2xl mr-2" />
           GitHub

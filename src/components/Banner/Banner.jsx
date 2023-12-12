@@ -1,7 +1,13 @@
 import banner from '../../assets/banner/banner.png';
 import resumePDF from '../../assets/resume/resume.pdf';
+import 'aos/dist/aos.css';
+import Aos from "aos";
+import { useEffect } from "react";
 
 const Banner = () => {
+    useEffect(() => {
+        Aos.init();
+    }, [])
   const handleDownloadResume = () => {
     // Create an invisible link element
     const link = document.createElement('a');
@@ -24,7 +30,11 @@ const Banner = () => {
       <div className="hero rounded-lg" style={{ backgroundImage: `url(${banner})` }}>
         <div className="hero-overlay bg-opacity-70 rounded-lg"></div>
         <div className="hero-content text-center text-neutral-content my-4 md:my-10">
-          <div className="max-w-xl">
+          <div className="max-w-xl"
+          data-aos="flip-up"
+          data-aos-easing="linear"
+          data-aos-duration="1200"
+          >
             <h1 className="mb-5 text-3xl font-bold text-white">Welcome to my corner of the web!</h1>
             <p className="mb-5 text-white">
               I am a Full Stack Developer passionate about crafting innovative solutions using the power of React, Node.js,

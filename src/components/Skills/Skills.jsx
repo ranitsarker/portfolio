@@ -2,13 +2,27 @@ import mongodb from '../../assets/mern/mongodb.png'
 import express from '../../assets/mern/express.png'
 import react from '../../assets/mern/react.png'
 import node from '../../assets/mern/node.png'
+import 'aos/dist/aos.css';
+import Aos from "aos";
+import { useEffect } from "react";
 const Skills = () => {
+  useEffect(() => {
+    Aos.init();
+}, [])
   return (
     <div className="container mx-auto p-4">
-      <h2 className="text-2xl font-bold mb-4 text-[#006BA6]">Skills</h2>
+      <h2 className="text-2xl font-bold mb-4 text-[#006BA6]"
+        data-aos="fade-right"
+        data-aos-easing="linear"
+        data-aos-duration="900"
+      >Skills</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {/* MongoDB */}
-        <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-md">
+        <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-md"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="900"
+        >
           <img
             src={mongodb}
             alt="MongoDB Logo"
@@ -19,7 +33,11 @@ const Skills = () => {
         </div>
 
         {/* Express.js */}
-        <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-md">
+        <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-md"
+            data-aos="zoom-in"
+            data-aos-easing="linear"
+            data-aos-duration="900"
+        >
           <img
             src={express} 
             alt="Express.js Logo"
@@ -31,7 +49,11 @@ const Skills = () => {
         </div>
 
         {/* React */}
-        <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-md">
+        <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-md"
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="900"
+        >
           <img
             src={react} 
             alt="React Logo"
@@ -43,7 +65,11 @@ const Skills = () => {
         </div>
 
         {/* Node.js */}
-        <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-md">
+        <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-md"
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="900"
+        >
           <img
             src={node}
             alt="Node.js Logo"
