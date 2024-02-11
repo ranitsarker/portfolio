@@ -11,9 +11,9 @@ const Banner = () => {
   const handleDownloadResume = () => {
     // Create an invisible link element
     const link = document.createElement('a');
-    link.href = resumePDF; // Set the href attribute to the PDF file's URL
+    link.href = 'https://drive.google.com/uc?id=1qtf7mmHHCNvatuH4xj5caEYtCk1s93JQ';
     link.target = '_blank'; // Open the link in a new tab
-    link.download = 'resume.pdf'; // Specify the name of the downloaded file
+    link.download = 'Ranit-Sarker-Resume.pdf'; // Specify the name of the downloaded file
 
     // Append the link to the document
     document.body.appendChild(link);
